@@ -5,18 +5,36 @@
    
 }
 
+@font-face {
+    font-family: "Muli-Bold";
+    src: url("../fonts/Muli-Bold.ttf");
+}
+@font-face {
+    font-family: "Muli-Black";
+    src: url("../fonts/Muli-Black.ttf");
+}
+@font-face {
+    font-family: "Muli-Regular";
+    src: url("../fonts/Muli-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
 .container-fluid {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.048);
-    justify-content: end;
-    color: #163050;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02);
 }
 
 .logo-web {
-    width: 120px;
-    vertical-align: middle;
-    display: table-cell;
-    height: auto;
-    margin-left: 50px;
+    width: auto;
+    height: 50px;
+    margin-left: 120px;
+}
+
+.navbar-nav {
+    margin-right: 120px;
+    font-family: "Muli-Bold";
 }
 
 .nav-item {
@@ -65,6 +83,7 @@
     height: 2px;
     background: #f07539;
     position: absolute;
+    right: 35px;
     top: 50%;
     z-index: -2;
     transform: translateX(40px);
@@ -138,8 +157,8 @@ span {
 .container-footer .footer-foot .red-social a{
     display: inline-block;
     text-decoration: none;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     line-height: 23px;
     color: #fff;
     margin-right: 10px;
