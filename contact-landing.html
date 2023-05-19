@@ -22,9 +22,9 @@
     </head>
     <body>
         <section id="navbar">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo-web" src="/img/logo-ALTA@2x.png" max-width = "auto" height="auto"></a>
+                <a class="navbar-brand" href="#"><img class="logo-web" src="/icons/logo-ALTA@2x.png" max-width = "auto" height="auto"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,7 +37,7 @@
                     <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
+                        <a class="nav-link" href="/teams-landing.html">Teams</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blogs</a>
@@ -54,10 +54,13 @@
         </section>
         
         <section id="main-contact">
-            <div class="container mt-5">
-                <div class="get-touch">
-                    <h2 class="touch-in">Get In Touch</h2>
-                </div>
+            <div class="title">
+                <h2 class="in-touch mt-5">
+                    <span style="color: #F47522;">—</span>
+                        Get In Touch
+                    <span style="color: #F47522;">—</span>
+                </h2>
+            </div>
                 <div class="row">
                     <div class="col-md-4 bg-emphasis-color p-5 order-sm-first order-last">
                         <div class="mt-2 ms-1">Phone</div>
@@ -92,19 +95,19 @@
                         </p>
                         <form class="row g-3 contactForm mt-4">
                             <div class="col-11">
-                                <label for="inputFullName" class="form-label">Full Name</label>
+                                <label for="inputFullName" class="form-label">Full Name<span style="color: red;"> *</span></label></label>
                                 <input type="text" class="form-control" id="inputFullName" required>
                             </div>
                             <div class="col-11">
-                                <label for="inputAddress" class="form-label">Email Address</label>
+                                <label for="inputAddress" class="form-label">Email Address<span style="color: red;"> *</span></label></label>
                                 <input type="text" class="form-control" id="inputAddress" required>
                             </div>
                             <div class="col-11">
-                                <label for="inputPhone" class="form-label">Phone Number</label>
+                                <label for="inputPhone" class="form-label">Phone Number<span style="color: red;"> *</span></label></label>
                                 <input type="text" class="form-control" id="inputPhone" required>
                             </div>
                             <div class="col-11">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <label for="exampleFormControlTextarea1" class="form-label">Message<span style="color: red;"> *</span></label></label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                               </div>
                             <div class="col-11">  
@@ -127,7 +130,7 @@
                 <div class="box">
                     <figure>
                         <a href="#">
-                            <img src="img/logo-ALTA-v2@2x.png" style="width: 120px;" alt="Logo Alterra">
+                            <img src="icons/logo-ALTA-v2@2x.png" style="width: 120px;" alt="Logo Alterra">
                         </a>
                     </figure>
                 </div>

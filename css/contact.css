@@ -22,8 +22,9 @@
     src: url("../fonts/Roboto-Bold.ttf");
 }
 
-.container-fluid {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
 }
 
 .logo-web {
@@ -37,71 +38,41 @@
     font-family: "Muli-Bold";
 }
 
-.nav-item {
-    vertical-align: baseline;
-    font-size: 100%;
-}
+.navbar-nav .li{
+    padding-left:15px;
+    padding-right:15px;
+  }
 
-.nav-link .li .a{
+.navbar-nav .nav-link {
     font-size: 100%;
-    font-family: "Poppins-Regular";
     color: #163050;
 }
 
-.nav a:hover {
+.navbar-nav a:hover {
     color: #f07539;
 }
 
-.nav-link :active {
+.navbar-nav a:active {
     color: #f07539;
 }
 
-.touch-in {
-    font-size: 40px;
-    color: #163050;
-    position: relative;
+.btn {
+    width: 150px;
+}
+
+/* title */
+.title {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .in-touch {
+    font-size: 45px;
+    font-family: "Muli-Bold";
+    color: #19345e;
     text-align: center;
-}
-.touch-in::before {
-    content: "";
-    align-content: center;
-    display: block;
-    width: 25px;
-    height: 2px;
-    background: #f07539;
-    position: absolute;
-    left: 35px;
-    top: 50%;
-    z-index: -2;
-    transform: translateX(40px);
-}
-.touch-in::after {
-    content: "";
-    align-content: center;
-    display: block;
-    width: 25px;
-    height: 2px;
-    background: #f07539;
-    position: absolute;
-    right: 35px;
-    top: 50%;
-    z-index: -2;
-    transform: translateX(40px);
-}
-
-span {
-    background: #ffffff;
-}
-
-
-.form-control {
-    font-family: "Poppins-Regular";
-    font-size: 14px;
-    border-radius: 2px;
-    box-shadow: none !important;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #163050 !important; 
-}
+  }
 
 .contactForm .form-control {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -186,5 +157,11 @@ span {
     }
     .container-footer .footer-foot .box .copyright{
         margin-top: auto;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .in-touch {
+        font-size: 35px;
     }
   }
